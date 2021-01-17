@@ -1,0 +1,175 @@
+@-moz-keyframes rotateRays {
+  from {-moz-transform: rotate(0deg);}
+  to {-moz-transform: rotate(360deg);}
+}
+@keyframes rotateRays {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+@-webkit-keyframes rotateRays {
+  from {-webkit-transform: rotate(0deg);}
+  to {-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes rotateRays2 {
+  from {-moz-transform: rotate(45deg);}
+  to {-moz-transform: rotate(405deg);}
+}
+@keyframes rotateRays2 {
+  from {transform: rotate(45deg);}
+  to {transform: rotate(405deg);}
+}
+@-webkit-keyframes rotateRays2 {
+  from {-webkit-transform: rotate(45deg);}
+  to {-webkit-transform: rotate(405deg);}
+}
+@-moz-keyframes rotateRays3 {
+  from {-moz-transform: rotate(90deg);}
+  to {-moz-transform: rotate(450deg);}
+}
+@keyframes rotateRays3 {
+  from {transform: rotate(90deg);}
+  to {transform: rotate(450deg);}
+}
+@-webkit-keyframes rotateRays3 {
+  from {-webkit-transform: rotate(90deg);}
+  to {-webkit-transform: rotate(450deg);}
+}
+@-moz-keyframes rotateRays4 {
+  from {-moz-transform: rotate(135deg);}
+  to {-moz-transform: rotate(495deg);}
+}
+@keyframes rotateRays4 {
+  from {transform: rotate(135deg);}
+  to {transform: rotate(495deg);}
+}
+@-webkit-keyframes rotateRays4 {
+  from {-webkit-transform: rotate(135deg);}
+  to {-webkit-transform: rotate(495deg);}
+}
+@-moz-keyframes rotateRays5 {
+  from {-moz-transform: rotate(180deg);}
+  to {-moz-transform: rotate(540deg);}
+}
+@keyframes rotateRays5 {
+  from {transform: rotate(180deg);}
+  to {transform: rotate(540deg);}
+}
+@-webkit-keyframes rotateRays5 {
+  from {-webkit-transform: rotate(180deg);}
+  to {-webkit-transform: rotate(540deg);}
+}
+.Ray1{
+  position: absolute;
+  height: 10px;
+  width: 275px;
+  background: yellow;
+  border-radius: 10px;
+  -webkit-animation-name: rotateRays;
+  -webkit-animation-duration: 10000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: rotateRays;
+  -moz-animation-duration: 10000ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: rotateRays;
+  -ms-animation-duration: 10000ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  animation-name: rotateRays;
+  animation-duration: 10000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.Ray2{
+  position: absolute;
+  height: 10px;
+  width: 250px;
+  background: yellow;
+  border-radius: 10px;
+  -webkit-animation-name: rotateRays2;
+  -webkit-animation-duration: 10000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: rotateRays2;
+  -moz-animation-duration: 10000ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: rotateRays2;
+  -ms-animation-duration: 10000ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  animation-name: rotateRays2;
+  animation-duration: 10000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.Ray3{
+  position: absolute;
+  height: 10px;
+  width: 275px;
+  background: yellow;
+  border-radius: 10px;
+  -webkit-animation-name: rotateRays3;
+  -webkit-animation-duration: 10000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: rotateRays3;
+  -moz-animation-duration: 10000ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: rotateRays3;
+  -ms-animation-duration: 10000ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  animation-name: rotateRays3;
+  animation-duration: 10000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.Ray4{
+  position: absolute;
+  height: 10px;
+  width: 250px;
+  background: yellow;
+  border-radius: 10px;
+  -webkit-animation-name: rotateRays4;
+  -webkit-animation-duration: 10000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: rotateRays4;
+  -moz-animation-duration: 10000ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: rotateRays4;
+  -ms-animation-duration: 10000ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  animation-name: rotateRays4;
+  animation-duration: 10000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.Ray5{
+  position: absolute;
+  height: 10px;
+  width: 275px;
+  background: yellow;
+  border-radius: 10px;
+  -webkit-animation-name: rotateRays5;
+  -webkit-animation-duration: 10000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: rotateRays5;
+  -moz-animation-duration: 10000ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: rotateRays5;
+  -ms-animation-duration: 10000ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  animation-name: rotateRays5;
+  animation-duration: 10000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
