@@ -1,6 +1,6 @@
 import styled from '@emotion/styled'
 
-const Main = styled.div`
+const Main1 = styled.div`
   display: flex;
   background: #2d81bd;
   position: absolute;
@@ -10,6 +10,7 @@ const Main = styled.div`
   width: 100vw;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 `
 
-export default Main
+export default Main1

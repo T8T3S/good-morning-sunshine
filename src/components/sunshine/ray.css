@@ -1,4 +1,4 @@
-@-moz-keyframes rotateRays {
+/* @-moz-keyframes rotateRays {
   from {-moz-transform: rotate(0deg);}
   to {-moz-transform: rotate(360deg);}
 }
@@ -9,7 +9,7 @@
 @-webkit-keyframes rotateRays {
   from {-webkit-transform: rotate(0deg);}
   to {-webkit-transform: rotate(360deg);}
-}
+} */
 @-moz-keyframes rotateRays2 {
   from {-moz-transform: rotate(45deg);}
   to {-moz-transform: rotate(405deg);}
@@ -58,12 +58,13 @@
   from {-webkit-transform: rotate(180deg);}
   to {-webkit-transform: rotate(540deg);}
 }
-.Ray1{
+/* .Ray1{
   position: absolute;
   height: 10px;
   width: 275px;
-  background: yellow;
+  background: orange;
   border-radius: 10px;
+  box-shadow: 2px 2px orange;
   -webkit-animation-name: rotateRays;
   -webkit-animation-duration: 10000ms;
   -webkit-animation-iteration-count: infinite;
@@ -80,13 +81,14 @@
   animation-duration: 10000ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-}
+} */
 .Ray2{
   position: absolute;
   height: 10px;
   width: 250px;
   background: yellow;
   border-radius: 10px;
+  box-shadow: 2px 4px orange;
   -webkit-animation-name: rotateRays2;
   -webkit-animation-duration: 10000ms;
   -webkit-animation-iteration-count: infinite;
@@ -110,6 +112,7 @@
   width: 275px;
   background: yellow;
   border-radius: 10px;
+  box-shadow: 2px 4px orange;
   -webkit-animation-name: rotateRays3;
   -webkit-animation-duration: 10000ms;
   -webkit-animation-iteration-count: infinite;
@@ -133,6 +136,7 @@
   width: 250px;
   background: yellow;
   border-radius: 10px;
+  box-shadow: 2px 4px orange;
   -webkit-animation-name: rotateRays4;
   -webkit-animation-duration: 10000ms;
   -webkit-animation-iteration-count: infinite;
@@ -156,6 +160,7 @@
   width: 275px;
   background: yellow;
   border-radius: 10px;
+  box-shadow: 2px 4px orange;
   -webkit-animation-name: rotateRays5;
   -webkit-animation-duration: 10000ms;
   -webkit-animation-iteration-count: infinite;
