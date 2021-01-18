@@ -3,13 +3,15 @@ import styled from '@emotion/styled'
 const Main2 = styled.div`
   @keyframes fadeInOpacity{
     0% {
-      opacity: .5;
+      opacity: 1;
     }
     100% {
       opacity: 1;
     }
   }
+
   display: flex;
+  flex-direction: column;
   font-size: 26px;
   background: #2d81bd;
   position: absolute;
@@ -24,6 +26,7 @@ const Main2 = styled.div`
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
   animation-duration: 2s;
+
 `
 
 export default Main2

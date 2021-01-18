@@ -4,6 +4,7 @@ import Main2 from './components/Main2'
 import Sunshine from './components/sunshine/Sunshine'
 import styled from '@emotion/styled'
 import './components/sunshine/ray.css'
+import CloudButton from './CloudButton.png'
 import {useState} from 'react'
 function App() {
   const [clicked, setClicked] = useState(false)
@@ -31,11 +32,14 @@ function App() {
       </Main>
       :
       <Main2>
-        <button style={{background: 'transparent', fontFamily: `'Dancing Script', cursive`, fontSize:'26px', height:'100vh', width: '100vw', border: 'none', color: 'white', fontWeight: 'bold'}} onClick={_handleClick}>
-          Good morning, Sunshine!
-          <br></br>
-          Click anywhere to reset.
-        </button>
+        <BackButtonContainer>
+        Good morning, Sunshine!
+        <BackButton style={{}}onClick={_handleClick}>
+          <img src={CloudButton} alt="Button"/>
+          Back
+        </BackButton>
+        </BackButtonContainer>
+        <iframe src="https://open.spotify.com/embed/track/451GvHwY99NKV4zdKPRWmv" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
       </Main2>
       }
       
@@ -44,8 +48,8 @@ function App() {
 }
 
 const Button = styled.button`
-  font-family: 'Dancing Script', cursive;
-  font-size: 26px;
+font-family: 'Dancing Script', cursive;
+font-size: 26px;
   z-index: 1000;
   height: 200px;
   width: 200px;
@@ -56,6 +60,22 @@ const Button = styled.button`
     background: gold;
   }
 `
-
-
+const BackButtonContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+`
+const BackButton = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  fontFamily:'Dancing Script', cursive;
+  pointer-events: auto;
+`
 export default App;
