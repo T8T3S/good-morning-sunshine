@@ -39,7 +39,7 @@ function App() {
           Back
         </BackButton>
         </BackButtonContainer>
-        <iframe src="https://open.spotify.com/embed/track/451GvHwY99NKV4zdKPRWmv" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <iframe title="jackJohnsoniFrame" src="https://open.spotify.com/embed/track/451GvHwY99NKV4zdKPRWmv" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
       </Main2>
       }
       
